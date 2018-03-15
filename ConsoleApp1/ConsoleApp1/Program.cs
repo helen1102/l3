@@ -10,8 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter 2 numbers:");
+            Console.WriteLine("Enter A numbers:");
             int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter B numbers:");
             int b = int.Parse(Console.ReadLine());
             Console.WriteLine("{0}+{1}={2}", a, b, a + b);
             Console.WriteLine("{0}-{1}={2}", a, b, a - b);
